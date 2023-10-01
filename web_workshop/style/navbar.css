@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(228, 226, 226);
+  height: 100vh;
+  width: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+  width: auto;
+}
+
+header .logo img {
+  height: auto;
+  width: 50px;
+  border-radius: 20px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-button a {
+  text-decoration: none;
+  padding: 50px;
+  color: rgb(76, 75, 75);
+}
